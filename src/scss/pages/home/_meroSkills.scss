@@ -1,0 +1,59 @@
+@use "../../abstracts" as *;
+
+.skillsContainer{
+    background-color: #0B1023;
+    @include flex(center, center, 25px, column);
+    width: 100%;
+}
+
+.title{
+    h1{
+       color: #e8f88b; 
+    }
+}
+
+.skillsBox{
+    @include flex(center, center, 25px, row);
+}
+.mySkills{
+    @include flex(center, center, 10px, column); 
+}
+
+.skills{
+    @include flex(center, center, 10px, row);  
+}
+.skill{
+   background-color: #b8c1e1;
+   width: 75px;
+   height: 85px;
+   padding: 10px;
+   border-radius: 10px;
+   @include flex(center, center, 0, column); 
+}
+
+.experienceBox{
+    @include flex(center, center, 5, column); 
+    background-color: #b8c1e1;
+    border-radius: 10px;
+   width: 250px;
+   height: 330px; 
+   button{
+    margin-top: 35px;
+   }
+}
+.additionalSkillsBox{
+    @include flex(center, center, 25px, column);  
+    background-color: #b8c1e1;
+    border-radius: 10px;
+    width: 47%;
+    padding: 25px;
+   h2{
+        font-weight: 500;
+        // color: #e8f88b;
+        color: #0B1023
+    }
+}
+
+.additionalSkills{
+    @include flex(space-around, center, 20px, row); 
+}

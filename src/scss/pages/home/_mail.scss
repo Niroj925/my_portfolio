@@ -1,0 +1,70 @@
+@use "../../abstracts" as *;
+
+.mailContianer{
+    width: 100%;
+    background-color: #0B1023;
+    @include flex(center, center, 5px, column);
+    padding-bottom: 50px;
+}
+.mailBox{
+    background-color: #161B2C;
+    margin-top: 75px;
+    width: 51%;
+    border-radius: 10px;
+    padding: 10px;
+    @include flex(space-between, center, 10px, row); 
+}
+.mailLeft{
+    width: 60%;
+    @include flex(center, center, 30px, column); 
+    padding: 20px;
+
+    h1{
+        color: #E8F88B
+    }
+}
+.mailRight{
+    @include flex(center, center, 10px, column); 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #B8C1E1;
+}
+.nameField{
+    @include flex(start, start, 5px, column);
+}
+.emailField{
+    @include flex(center, start, 5px, column); 
+}
+.messageBox{
+    width: 100%;
+}
+.inputField{
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.mailButton{
+    width: 100%;
+button{
+    width: 100%;
+    background-color: #161B2C;
+    color: $TextColor;
+    border-radius: 10px;
+    padding:10px 15px 10px 15px;
+    border: none;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #121520;
+    }
+}
+}
+.leftInfo{
+    @include flex(center, center, 5px, column); 
+    p{
+        color: $TextColor;
+    }
+}

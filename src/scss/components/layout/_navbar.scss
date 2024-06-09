@@ -1,0 +1,71 @@
+@use "../../abstracts" as *;
+
+.navContainer{
+    padding: 20px;
+    background-color:$BgColor;
+    color:$TextColor;
+    @include flex(space-around,center, 0, row);
+    position: sticky;
+    position: -webkit-sticky;
+    top: -5px;
+    z-index: 1000;
+}
+.logo{
+    img{
+        width: 60px;
+        height: 45px;
+    }
+}
+
+.navLink{
+    width: 30%;
+    @include flex(space-between,center, 0, row); 
+
+    a{
+        color: $TextColor;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .hoverLink:hover{    
+            color: #E8F88B;   
+    }
+
+}
+.navBtn{
+    button{
+        background-color: $BgColor;
+        border-radius: 20px;
+        padding:5px 3px 5px 10px;
+        border: 1px solid $TextColor;
+        color: $TextColor;
+        font-weight: 500;
+        @include flex(space-around,center, 0, row); 
+        cursor: pointer;
+}
+button:hover{
+    background-color: #E8F88B;
+    color: $BgColor;
+    border: 1px solid #E8F88B;
+    .circleNav {
+        background-color: $BgColor;
+    }
+    .arrowIconBtn{
+        color: #E8F88B;
+    }
+}
+}
+
+.circleNav{
+    margin-left: 15px;
+    background-color:#E8F88B;
+    border-radius: 50%;
+    padding:4px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+ 
+}
+.arrowIconBtn{
+    color: $BgColor;
+}

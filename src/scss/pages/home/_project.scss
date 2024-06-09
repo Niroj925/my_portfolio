@@ -1,0 +1,67 @@
+@use "../../abstracts" as *;
+
+.projectContainer{
+    width: 100%;
+    background-color: #0B1023;
+    @include flex(center, center, 5px, column);
+    padding-bottom: 50px;
+}
+.projectWrapBox{
+    width: 51%;
+    @include flex(center, center, 5px, column);
+}
+
+.projectTitle{
+    @include flex(center, center, 5px, column);
+    color: $BaseColor;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.projectBox{
+    @include flex(center, center, 150px, column); 
+}
+
+.project{
+    @include flex(center, center, 35px, row);   
+}
+.projectRev{
+    @include flex(center, center, 35px, row-reverse);  
+}
+
+.projectContent{
+    @include flex(center, center, 5px, column); 
+    h3{
+        color: $BaseColor;
+    }
+    p{
+        color: $TextColor
+    }
+}
+
+.projectLink{
+    margin-top: 20px;
+    width: 100%;
+    @include flex(space-around, center, 25px, row); 
+}
+.pLink{
+    @include flex(space-around, center, 5px, row); 
+    a{
+        color: $BaseColor;
+        font-weight: 500;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline; 
+        }
+    }
+}
+
+.projectImage{
+    @include flex(center, center, 5px, column); 
+    img{
+     width: 250px;
+     height: 240px;
+     border-radius: 10px;
+    }
+}
+

@@ -1,0 +1,35 @@
+@use "../../abstracts" as *;
+
+.heroContainer {
+  @include flex(center, center, 5px, column);
+  width: 100%;
+  background:linear-gradient(#0B1023,#282b39 );
+}
+
+.heading {
+    margin-top: 15px;
+  h1 {
+    color: $TextColor;
+    font-size: 55px;
+    span {
+      color: #e8f88b;
+      font-style: italic;
+    }
+  }
+}
+
+.fullStack {
+  color: $TextColor;
+  border-radius: 11px;
+  border: 1px solid $TextColor;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 3px 3px 5px rgba(223, 220, 92, 0.3);
+  font-style: normal;
+}
+
+.bottomHero {
+  width: 100%;
+  @include flex(space-around, center, 1px, row);
+}
+
+

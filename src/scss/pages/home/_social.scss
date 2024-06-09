@@ -1,0 +1,15 @@
+@use "../../abstracts" as *;
+
+.Social{
+    background-color: #0B1023;
+    @include flex(center, center, 5px, column);
+    width: 100%;
+    h1{
+        margin-top: 35px;
+        color: $BaseColor;
+    }
+}
+.SocialMedia{
+    width:40%;
+    @include flex(space-around, center, 0, row);
+}

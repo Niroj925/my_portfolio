@@ -1,0 +1,7 @@
+@use "../../abstracts" as *;
+
+.MainDiv{
+  @include flex(center,center,0,column);
+    // height: 100vh;
+    // background:linear-gradient(#0B1023,#282b39 );
+}
