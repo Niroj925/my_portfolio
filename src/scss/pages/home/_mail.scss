@@ -68,3 +68,15 @@ button{
         color: $TextColor;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .mailBox{
+        width: 85%;
+        @include flex(center, center, 10px, column); 
+    }
+    .mailLeft{
+        width: 85%;
+    }
+
+    }

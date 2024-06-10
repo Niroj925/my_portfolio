@@ -33,17 +33,17 @@ function HeroSection() {
         </h1>
       </div>
       <div className="bottomHero">
-      <div >
-      <Lottie options={frontOption} height={260} width={260} />
+      <div className="lottieBox">
+      <Lottie options={frontOption} width={260} height={260} />
       </div>
         <div>
           <div className="heroImage">
-            <img src="images/mypic.png"></img>
+            <img src="images/niro.png"></img>
           </div>
         </div>
         <div>
-        <div >
-        <Lottie options={nodeOptions} height={260} width={260} />
+        <div className="lottieBox">
+        <Lottie options={nodeOptions} width={260} height={260} />
       </div>
         </div>
       </div>

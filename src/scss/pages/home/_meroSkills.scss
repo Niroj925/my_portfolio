@@ -32,7 +32,7 @@
 }
 
 .experienceBox{
-    @include flex(center, center, 5, column); 
+    @include flex(center, center, 5px, column); 
     background-color: #b8c1e1;
     border-radius: 10px;
    width: 250px;
@@ -57,3 +57,27 @@
 .additionalSkills{
     @include flex(space-around, center, 20px, row); 
 }
+
+@media screen and (max-width: 768px) {
+    .skillsBox{
+        @include flex(center, center, 25px, column);
+    }
+    .skill{
+        width: 70px;
+        height: 80px;
+        padding: 5px;
+     }
+     .experienceBox{
+        width: 100%;
+        @include flex(center, center, 0px, column); 
+     }
+     .additionalSkillsBox{
+        width: 75%;
+     }
+  
+  }
+  
+  /* Media query for screens larger than 768px */
+  @media screen and (min-width: 769px) {
+ 
+  }

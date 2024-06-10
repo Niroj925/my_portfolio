@@ -1,6 +1,15 @@
 import React from "react";
 
 function MySkills() {
+  const handleDownload = (fileName) => {
+    const filePath = `files/${fileName}`; 
+    const link = document.createElement('a');//create anchor tag
+    link.href = filePath;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <div id='skills' className="skillsContainer">
       <div className="title">
@@ -66,7 +75,7 @@ function MySkills() {
           <h1>Experience</h1>
           <h1>working</h1>
         <div>
-        <button className="projectBtn">DOWNLOAD MY CV</button>
+        <button className="projectBtn" onClick={() => handleDownload('cv.pdf')}>DOWNLOAD MY CV</button>
       </div>
         </div>
       </div>

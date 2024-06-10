@@ -1,7 +1,7 @@
 @use "../../abstracts" as *;
 
 .navContainer{
-    padding: 20px;
+    padding: 10px;
     background-color:$BgColor;
     color:$TextColor;
     @include flex(space-around,center, 0, row);
@@ -31,6 +31,7 @@
     }
 
 }
+
 .navBtn{
     button{
         background-color: $BgColor;
@@ -69,3 +70,51 @@ button:hover{
 .arrowIconBtn{
     color: $BgColor;
 }
+
+@media screen and (max-width: 768px) {
+    .navContainer{
+        @include flex(space-between,center, 0, row); 
+    }
+    .navLink{
+        display:none;
+    } 
+    .hamburgerMenu{
+        @include flex(space-between,center, 0, row-reverse); 
+    }
+    .sideBar{
+        @include flex(flex-end,25px,column);  
+        background-color: $BgColor;
+        padding-left: 10px; 
+        position: sticky;
+        position: -webkit-sticky;
+        top: -5px;
+        z-index: 1000;
+    }
+    
+    .menuLink{
+        // width: 100%;
+        @include flex(space-between,center, 15px, column); 
+        background-color: $BgColor;
+        padding: 10px;
+        a{
+            color: $TextColor;
+            text-decoration: none;
+            font-weight: 500;
+            text-wrap: nowrap;
+        }
+        .hoverLink:hover{    
+                color: #E8F88B;   
+        }
+    
+    }
+
+    .navBtn{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hamburgerMenu {
+     display: none;
+    }
+  }

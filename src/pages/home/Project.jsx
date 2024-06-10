@@ -11,7 +11,7 @@ function Project() {
         <div className="projectBox">
           <div className="project">
             <div className="projectContent">
-              <h3>Phonehub</h3>
+              <h3>Gadget Hub</h3>
               <div>
                 <p>
                   This is an E-commerce site for mobile phones where we can
@@ -21,6 +21,9 @@ function Project() {
                   street map is used.
                 </p>
               </div>
+              <div className="projectImageMob">
+              <img src="images/ecommerce.png"></img>
+            </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
@@ -55,6 +58,9 @@ function Project() {
                   as a backend for the database Mongo is used.
                 </p>
               </div>
+              <div className="projectImageMob">
+              <img src="images/webrtc.png"></img>
+            </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
@@ -90,6 +96,9 @@ function Project() {
                   street map is used.
                 </p>
               </div>
+              <div className="projectImageMob">
+              <img src="images/sps.png"></img>
+            </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
@@ -124,6 +133,9 @@ function Project() {
                   as a backend for the database Mongo is used.
                 </p>
               </div>
+              <div className="projectImageMob">
+              <img src="images/emi.png"></img>
+            </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a href="https://github.com/Niroj925/emifull" target="_blank">

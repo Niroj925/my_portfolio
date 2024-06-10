@@ -38,6 +38,9 @@
         color: $TextColor
     }
 }
+.projectImageMob{
+    display: none;
+}
 
 .projectLink{
     margin-top: 20px;
@@ -65,3 +68,29 @@
     }
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .project{
+        @include flex(center, center, 35px, column);   
+    }
+    .projectWrapBox{
+        width: 85%;
+    }
+    .projectRev{
+        @include flex(center, center, 35px, column);  
+    }
+    .projectImage{
+        display: none;
+    }
+    .projectImageMob{
+       margin-top: 20px;
+        @include flex(center, center, 5px, column); 
+        img{
+         width: 250px;
+         height: 240px;
+         border-radius: 10px;
+        }
+    }
+
+  }

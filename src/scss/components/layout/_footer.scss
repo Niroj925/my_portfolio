@@ -34,4 +34,18 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+  .footerContainer{
+    @include flex(center, center, 25px, column);
+  }
+  .footerIntro{
+    width: 85%;
+  }
+
+  .contactLink{
+    width: 85%;
+    @include flex(space-around, start, 25px, row);
+  }
+
+}
 
