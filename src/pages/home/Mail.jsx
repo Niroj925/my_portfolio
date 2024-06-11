@@ -9,6 +9,7 @@ const [details,setDetails]=useState({
   message:"",
   to_email:""
 });
+const [emailError, setEmailError] = useState('');
 
 const handleDetailChange=(event)=>{
   const {name,value}=event.target;
@@ -18,9 +19,16 @@ const handleDetailChange=(event)=>{
       [name]:value,
     };
   });
+  if (name === 'to_email') {
+    if (value === '') {
+      setEmailError('');
+    } else if (!validateEmail(value)) {
+      setEmailError(' (Invalid email address.)');
+    } else {
+      setEmailError('');
+    }
+  }
 };
-
-
 
 const emailPattern = /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/;
 
@@ -102,15 +110,16 @@ const handleSubmit = async () => {
             </div>
 
             <div className="emailField" >
-             <label>Email</label>
+             <label>Email  {emailError && <span className="errorMessage">{emailError}</span>}</label>
              <input 
              name="to_email"
              value={details.to_email}
              onChange={handleDetailChange} 
-             className="inputField"></input>
+             className="inputField">
+             </input>
             </div>
 
-            <div className="messageBox">
+            <div className="messageField">
             <label>Message</label>
             <textarea 
             name="message"

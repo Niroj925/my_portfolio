@@ -35,8 +35,9 @@
 .emailField{
     @include flex(center, start, 5px, column); 
 }
-.messageBox{
+.messageField{
     width: 100%;
+    @include flex(center, start, 5px, column); 
 }
 .inputField{
     width: 95%;
@@ -69,6 +70,13 @@ button{
     }
 }
 
+.inputField.invalid {
+    border: 1px solid red;
+  }
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+  }
 
 @media screen and (max-width: 768px) {
     .mailBox{
