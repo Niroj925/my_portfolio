@@ -70,7 +70,7 @@ function MySkills() {
         </div>
 
         <div className="experienceBox">
-          <h1>3</h1>
+          <h1>3<sup>+</sup></h1>
           <h1>Years</h1>
           <h1>Experience</h1>
           <h1>working</h1>
