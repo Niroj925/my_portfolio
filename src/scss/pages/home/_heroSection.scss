@@ -1,7 +1,7 @@
 @use "../../abstracts" as *;
 
 .heroContainer {
-  @include flex(center, center, 5px, column);
+  @include flex(center, center, 0px, column);
   width: 100%;
   background:linear-gradient(#0B1023,#282b39 );
 }
@@ -30,6 +30,7 @@
 .bottomHero {
   width: 100%;
   @include flex(space-around, center, 1px, row);
+ margin-bottom: -30px;
 }
 
 
@@ -43,6 +44,9 @@
 
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
   .heroImage img {
     margin-top: 10px;
     max-width: 100%;
