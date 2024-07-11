@@ -15,7 +15,7 @@
     @include flex(space-between, center, 10px, row); 
 }
 .mailLeft{
-    width: 60%;
+    width: 45%;
     @include flex(center, center, 30px, column); 
     padding: 20px;
 
