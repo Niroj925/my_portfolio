@@ -38,7 +38,7 @@ function HeroSection() {
       </div>
         <div>
           <div className="heroImage">
-            <img src="images/nt.png"></img>
+            <img src="images/nt.webp"></img>
           </div>
         </div>
         <div>
