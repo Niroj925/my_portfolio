@@ -2,7 +2,7 @@ import React from 'react'
 
 function SocialMedia() {
   return (
-    <div className='Social'>
+    <div id="contact" className='Social'>
         <h1>CONNECT WITH ME </h1>
         <div className='SocialMedia'>
         <div>

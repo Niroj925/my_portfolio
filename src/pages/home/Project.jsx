@@ -127,10 +127,7 @@ function Project() {
               <h3>EMI</h3>
               <div>
                 <p>
-                  This is a real-time chatting and video calling web app
-                  implementation of webRTC where we can communicate
-                  bidirectional in real-time using Next as a frontend and Node
-                  as a backend for the database Mongo is used.
+                EMI System for Car Purchase SaaS allows dealers to list cars for sale while enabling customers to buy with EMI options, receive payment notifications, and access detailed payment information, enhancing the overall purchasing experience.
                 </p>
               </div>
               <div className="projectImageMob">

@@ -20,6 +20,7 @@ const handleClick=()=>{
         <a href='#project' class='hoverLink'>PROJECTS</a>
         </div>
         <div className='navBtn'>
+        <a href='#contact' style={{textDecoration:'none'}}>
             <button>
               <div>
                 <p>CONTACT</p>
@@ -28,6 +29,7 @@ const handleClick=()=>{
                 <GoArrowUpRight size={20} className='arrowIconBtn'/>
               </div>
             </button>
+            </a>
         </div>
         <div className='hamburgerMenu'>
           {

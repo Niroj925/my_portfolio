@@ -10,7 +10,7 @@ const [details,setDetails]=useState({
   to_email:""
 });
 const [emailError, setEmailError] = useState('');
-
+const [isDisable,setIsDisable]=useState(false);
 const handleDetailChange=(event)=>{
   const {name,value}=event.target;
   setDetails((prev)=>{
@@ -40,9 +40,11 @@ const validateEmail = (email) => {
 const handleSubmit = async () => {
   const isEmailValid = validateEmail(details.to_email);
   console.log(isEmailValid);
-
+  
   if (isEmailValid) {
+
       try {
+        setIsDisable(true);
           const res = await sendCustomerEmail(details);
           console.log('response:', res);
           // Handle response here
@@ -80,7 +82,10 @@ const handleSubmit = async () => {
             // transition: Bounce,
             });
           // Handle error here
+      }finally{
+        setIsDisable(false);
       }
+
   }
 };
 
@@ -131,7 +136,7 @@ const handleSubmit = async () => {
             </div>
 
             <div className="mailButton">
-                <button onClick={()=>handleSubmit()}>Submit</button>
+                <button onClick={()=>handleSubmit()} disabled={isDisable}>Submit</button>
             </div>
         </div>
         </div>
