@@ -3,6 +3,7 @@
 .heroContainer {
   @include flex(center, center, 0px, column);
   width: 100%;
+  height: 100vh;
   background:linear-gradient(#0B1023,#282b39 );
 }
 
@@ -44,6 +45,10 @@
 
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
+  .heroContainer {
+    height: 50vh;
+  }
+
   h1 {
     font-size: 35px;
   }
