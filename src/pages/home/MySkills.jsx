@@ -60,7 +60,7 @@ function MySkills() {
             <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="48" height="48"/> </a> 
             </div>
             <div className="skill">
-            <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png"/> </a> 
+            <a href="https://aws.amazon.com/" target="_blank"> <img src="https://img.icons8.com/?size=50&id=33039&format=png&color=000000"/> </a> 
             </div>
             <div className="skill">
            <a href="https://www.docker.org" target="_blank"> <img src="https://img.icons8.com/?size=50&id=cdYUlRaag9G9&format=png&color=1160A8"/> </a>
@@ -82,6 +82,9 @@ function MySkills() {
       <div className="additionalSkillsBox">
         <h2>ADDITIONAL SKILLS</h2>
         <div className="additionalSkills">
+        <div>
+            <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/?size=40&id=20906&format=png&color=000000"/> </a>
+            </div>
         <div >
         <a  href="https://docs.nestjs.com/" target="_blank"> <img src="https://img.icons8.com/?size=40&id=9ESZMOeUioJS&format=png&color=000000"/> </a> 
          </div>
