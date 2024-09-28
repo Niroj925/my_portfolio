@@ -91,11 +91,7 @@ function MySkills() {
             <div >
             <a href="https://firebase.google.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/firebase.png"/> </a>   
     </div>
-            
-            <div >
-            <a href="https://www.bootstrap.org" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/40px-Bootstrap_logo.svg.png"/> </a>
-   
-            </div>
+          
             <div >
             <a href="https://www.bootstrap.org" target="_blank"> <img src="https://img.icons8.com/?size=50&id=DgDldTbM9fXB&format=png&color=6411A7"/> </a>
    
