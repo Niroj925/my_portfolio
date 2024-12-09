@@ -11,23 +11,25 @@ function Project() {
         <div className="projectBox">
           <div className="project">
             <div className="projectContent">
-              <h3>Gadget Hub</h3>
+              <h3>Gadget store</h3>
               <div>
                 <p>
-                  This is an E-commerce site for mobile phones where we can
-                  create a store to sell our products and customers can buy
-                  easily. On this site, I have integrated the payment method
-                  Esewa and to get the exact location of the customer open
-                  street map is used.
+                  This e-commerce project allows customers to log in via OAuth,
+                  make purchases with eSewa, and access full navigation for
+                  browsing and managing orders. Admins can add products, process
+                  orders, manage inventory, and handle deliveries, including
+                  calculating delivery distances from the store. These features
+                  work together to provide a seamless experience for both
+                  customers and administrators.
                 </p>
               </div>
               <div className="projectImageMob">
-              <img src="images/ecommerce.png"></img>
-            </div>
+                <img src="images/ecom.png"></img>
+              </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
-                    href="https://github.com/Niroj925/phonehub"
+                    href="https://github.com/Niroj925/Gadget-Store"
                     target="_blank"
                   >
                     Source code{" "}
@@ -59,8 +61,8 @@ function Project() {
                 </p>
               </div>
               <div className="projectImageMob">
-              <img src="images/webrtc.png"></img>
-            </div>
+                <img src="images/webrtc.png"></img>
+              </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
@@ -83,7 +85,7 @@ function Project() {
               <img src="images/webrtc.png"></img>
             </div>
           </div>
-
+{/* 
           <div className="project">
             <div className="projectContent">
               <h3>Stroke Prediction System</h3>
@@ -97,8 +99,8 @@ function Project() {
                 </p>
               </div>
               <div className="projectImageMob">
-              <img src="images/sps.png"></img>
-            </div>
+                <img src="images/sps.png"></img>
+              </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a
@@ -127,12 +129,15 @@ function Project() {
               <h3>EMI</h3>
               <div>
                 <p>
-                EMI System for Car Purchase SaaS allows dealers to list cars for sale while enabling customers to buy with EMI options, receive payment notifications, and access detailed payment information, enhancing the overall purchasing experience.
+                  EMI System for Car Purchase SaaS allows dealers to list cars
+                  for sale while enabling customers to buy with EMI options,
+                  receive payment notifications, and access detailed payment
+                  information, enhancing the overall purchasing experience.
                 </p>
               </div>
               <div className="projectImageMob">
-              <img src="images/emi.png"></img>
-            </div>
+                <img src="images/emi.png"></img>
+              </div>
               <div className="projectLink">
                 <div className="pLink">
                   <a href="https://github.com/Niroj925/emifull" target="_blank">
@@ -151,7 +156,7 @@ function Project() {
             <div className="projectImage">
               <img src="images/emi.png"></img>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
