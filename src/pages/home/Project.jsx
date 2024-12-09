@@ -37,7 +37,7 @@ function Project() {
                   <img src="https://img.icons8.com/?size=30&id=u9R54eMKS8fw&format=png&color=000000" />
                 </div>
                 <div className="pLink">
-                  <a href="https://fonehub.netlify.app/" target="_blank">
+                  <a href="https://gadget-store-pink.vercel.app/" target="_blank">
                     Demo{" "}
                   </a>
                   <img src="https://img.icons8.com/?size=30&id=19176&format=png&color=e8f88b" />
@@ -45,7 +45,7 @@ function Project() {
               </div>
             </div>
             <div className="projectImage">
-              <img src="images/ecommerce.png"></img>
+              <img src="images/ecom.png"></img>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ function Project() {
                   <img src="https://img.icons8.com/?size=30&id=u9R54eMKS8fw&format=png&color=000000" />
                 </div>
                 <div className="pLink">
-                  <a href="https://fonehub.netlify.app/" target="_blank">
+                  <a href="https://github.com/Niroj925/Dekhinxa" target="_blank">
                     Demo{" "}
                   </a>
                   <img src="https://img.icons8.com/?size=30&id=19176&format=png&color=DDD757" />
