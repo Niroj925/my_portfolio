@@ -11,6 +11,48 @@ function Project() {
         <div className="projectBox">
           <div className="project">
             <div className="projectContent">
+              <h3>Multiplayer Ludo Game</h3>
+              <div>
+                <p>
+                  A real-time online Ludo experience where players can connect
+                  from anywhere, create or join groups, and instantly start
+                  games with friends. Includes in-game chat, seamless group
+                  management, and smooth multiplayer interaction. Fully
+                  installable as a PWA for fast, app-like gameplay across all
+                  devices.
+                </p>
+              </div>
+              <div className="projectImageMob">
+                <img src="images/lm.jpg"></img>
+              </div>
+              <div className="projectLink">
+                <div className="pLink">
+                  <a
+                    href="https://ludoport.com"
+                    target="_blank"
+                  >
+                    ludoport.com
+                  </a>
+                  {/* <img src="https://img.icons8.com/?size=30&id=u9R54eMKS8fw&format=png&color=000000" /> */}
+                </div>
+                <div className="pLink">
+                  <a
+                    href="https://ludoport.com"
+                    target="_blank"
+                  >
+                    Demo{" "}
+                  <img src="https://img.icons8.com/?size=30&id=19176&format=png&color=DDD757" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="projectImage">
+              <img src="images/ludo.jpg"></img>
+            </div>
+          </div>
+
+          <div className="projectRev">
+            <div className="projectContent">
               <h3>Gadget store</h3>
               <div>
                 <p>
@@ -37,10 +79,13 @@ function Project() {
                   <img src="https://img.icons8.com/?size=30&id=u9R54eMKS8fw&format=png&color=000000" />
                 </div>
                 <div className="pLink">
-                  <a href="https://gadget-store-pink.vercel.app/" target="_blank">
+                  <a
+                    href="https://gadget-store-pink.vercel.app/"
+                    target="_blank"
+                  >
                     Demo{" "}
-                  </a>
                   <img src="https://img.icons8.com/?size=30&id=19176&format=png&color=e8f88b" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -49,43 +94,7 @@ function Project() {
             </div>
           </div>
 
-          <div className="projectRev">
-            <div className="projectContent">
-              <h3>Dekhinxa</h3>
-              <div>
-                <p>
-                  This is a real-time chatting and video calling web app
-                  implementation of webRTC where we can communicate
-                  bidirectional in real-time using Next as a frontend and Node
-                  as a backend for the database Mongo is used.
-                </p>
-              </div>
-              <div className="projectImageMob">
-                <img src="images/webrtc.png"></img>
-              </div>
-              <div className="projectLink">
-                <div className="pLink">
-                  <a
-                    href="https://github.com/Niroj925/Dekhinxa"
-                    target="_blank"
-                  >
-                    Source code{" "}
-                  </a>
-                  <img src="https://img.icons8.com/?size=30&id=u9R54eMKS8fw&format=png&color=000000" />
-                </div>
-                <div className="pLink">
-                  <a href="https://github.com/Niroj925/Dekhinxa" target="_blank">
-                    Demo{" "}
-                  </a>
-                  <img src="https://img.icons8.com/?size=30&id=19176&format=png&color=DDD757" />
-                </div>
-              </div>
-            </div>
-            <div className="projectImage">
-              <img src="images/webrtc.png"></img>
-            </div>
-          </div>
-{/* 
+          {/* 
           <div className="project">
             <div className="projectContent">
               <h3>Stroke Prediction System</h3>

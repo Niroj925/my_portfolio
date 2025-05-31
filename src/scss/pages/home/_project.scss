@@ -47,17 +47,37 @@
     width: 100%;
     @include flex(space-around, center, 25px, row); 
 }
-.pLink{
-    @include flex(space-around, center, 5px, row); 
-    a{
-        color: $BaseColor;
-        font-weight: 500;
-        text-decoration: none;
-        &:hover{
-            text-decoration: underline; 
-        }
+// .pLink{
+//     @include flex(space-around, center, 5px, row); 
+//     a{
+//         color: $BaseColor;
+//         font-weight: 500;
+//         text-decoration: none;
+//         &:hover{
+//             text-decoration: underline; 
+//         }
+//     }
+// }
+.pLink {
+  @include flex(center, center, 5px, row); // align and justify center
+
+  a {
+    @include flex(center, center, 5px, row); // make the link content also flex
+    color: $BaseColor;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
 }
+
 
 .projectImage{
     @include flex(center, center, 5px, column); 
